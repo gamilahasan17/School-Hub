@@ -3,30 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/hero.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/products.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>SchoolHub</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="80" tabindex="0">
+
   <!-- =====================================================
-     NAVBAR SECTION
-     Sticky top navigation with logo and nav links
+      NAVBAR SECTION
+      Sticky top navigation with logo and nav links
 ===================================================== -->
 
-    <!--start Navigation Bar -->
+  <!--start Navigation Bar -->
     <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">SchoolHub</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
       </div>
     </div>
@@ -38,111 +37,275 @@
 
 
 <!-- =====================================================
-     HERO SECTION
-     Top banner with heading, subtext, search box, and CTA
+      HERO SECTION
+      Top banner with heading, subtext, background image, and search box
 ===================================================== -->
 
  <!-- section part -->
- <section class="hero-section">
-<div class="hero- content">
-<h1>كل احتياجاتك المكتبية من كل المحلات في مكان واحد</h1>
-<p>اكتشف الأدوات المدرسية والمكتبية والفنية واطلبها بسهولة من أفضل المحلات</p>
-<!-- search part -->
-<div class="search-box">
-<input type="text" placeholder="ابحث عن منتج او محل">
-<!-- buttoun part -->
-<button class="text">بحث</button>
-</div>
-<button class="text">order now</button>
-</div>
- </section>
- 
+<section class="hero-section">
+    <div class="hero-content">
+        <h1>All your stationery needs from every store in one place</h1>
+<p>Discover school, office, and art supplies and order them easily from the best local stores</p>
+        <!-- search part -->
+        <div class="search-box">
+          <!-- button part -->
+            <button>Search</button>
+            <input type="text" placeholder="search for school supplies">
+        </div>
+    </div>
+</section>
 
 <!-- ===================== END HERO SECTION ===================== -->
 
 
 <!-- =====================================================
-     STORES SECTION
+      STORES SECTION
     
 ===================================================== -->
+<!-- Stores Section -->
+<section class="stores-section py-5">
+    <div class="container">
 
+        <div class="text-center mb-4">
+            <h2>Available Stores</h2>
+            <p class="text-muted">
+                Browse our available stationery stores
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Store 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card store-card h-100">
+
+                    <img src="images/stores/alahram.jpg" class="card-img-top store-img" alt="Al-Ahram Stationery">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Al-Ahram Stationery
+                        </h5>
+
+                        <p class="text-muted">
+                            Stationery & School Supplies
+                        </p>
+
+                        <div class="store-info">
+                            <span>⭐ 4.6</span>
+                            <span>🕒 20-30 min</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Store 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card store-card h-100">
+
+                    <img src="images/stores/cairooffice.jpg" class="card-img-top store-img" alt="Cairo Office Supplies">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Cairo Office Supplies
+                        </h5>
+
+                        <p class="text-muted">
+                            Office Supplies
+                        </p>
+
+                        <div class="store-info">
+                            <span>⭐ 4.2</span>
+                            <span>🕒 15-25 min</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Store 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card store-card h-100">
+
+                    <img src="images/stores/smart.jpg" class="card-img-top store-img" alt="Smart Stationery">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Smart Stationery
+                        </h5>
+
+                        <p class="text-muted">
+                            Art Supplies
+                        </p>
+
+                        <div class="store-info">
+                            <span>⭐ 4.5</span>
+                            <span>🕒 25-35 min</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Store 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card store-card h-100">
+
+                    <img src="images/stores/future.jpg" class="card-img-top store-img" alt="Future School Supplies">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Future School Supplies
+                        </h5>
+
+                        <p class="text-muted">
+                            School Supplies
+                        </p>
+
+                        <div class="store-info">
+                            <span>⭐ 4.3</span>
+                            <span>🕒 20-30 min</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
   
-
 <!-- ===================== END STORES SECTION ===================== -->
 
 
 <!-- =====================================================
-     PRODUCTS SECTION
-     Product catalog grid (notebooks, colors, pencils)
-     with card layout, image, title, description, and buy button
+      PRODUCTS SECTION
+      "Best Sellers" catalog grid (notebooks, colors, pens, etc.)
+      with card layout, image, title, description, and buy button
 ===================================================== -->
-<main class="container-fluid">
-        <section class="row row-cols-1 row-cols-md-2 g-4">
-         <h2 class="w-100">note-books</h2>
-      <div class="card col">
-        <img src="images/products/thedigitalartist-notebook-1076806.jpg" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">Black note-book</h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
-      </div>
-      
-      <div class="card col">
-        <img src="images/products/thedigitalartist-notebook-1076812.jpg" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">Green note-book</h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
-      </div>
-       
-         <h2 class="w-100">colors</h2>
-      
-        <div class="card col">
-        <img src="images/products/openclipart-vectors-colorful-1296465.svg" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">crayons</h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
+<section class="best-sellers py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2>Best Sellers</h2>
+      <p class="text-muted">Our most popular stationery picks</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/black.jpg" alt="Black Notebook">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Black Notebook</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
       </div>
 
-       <div class="card col">
-        <img src="images/products/openclipart-vectors-pencils-160619.svg" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">pencil colors</h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/green.jpg" alt="Green Notebook">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Green Notebook</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
       </div>
-      <h3 class="w-100">Pencils</h3>
-      <div class="card col">
-        <img src="images/products/pacart3d-pen-5579144.png" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">black pencil </h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
-      </div>
-      <div class="card col">
-        <img src="images/products/braite-ball-point-pen-2099187.jpg" >
-        <p class="card-body d-flex justify-content-center align-items-center">
-            <h4 class="card-title ">light pencil </h4>
-            <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
-      <button class="btn bg-success">Buy</button>
-        </p>
-      </div>
-      </section>
 
-    </main>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/crayons.jpg" alt="Crayons">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Crayons</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/colors.png" alt="Colored Pencils">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Colored Pencils</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/blackpen.png" alt="Black Pen">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Black Pen</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/light.jpg" alt="Ballpoint Pen">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Ballpoint Pen</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/ruler.png" alt="Ruler">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Ruler</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card h-100">
+          <div class="product-img-wrapper">
+            <img src="images/products/gluestick.png" alt="Glue Stick">
+          </div>
+          <div class="card-body text-center d-flex flex-column align-items-center justify-content-between">
+            <h5 class="card-title">Glue Stick</h5>
+            <p class="card-text text-muted small">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success btn-sm px-3">Buy</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!-- ===================== END PRODUCTS SECTION ===================== -->
 
 
 <!-- =====================================================
-     FOOTER SECTION
-     Copyright notice at bottom of page
+      FOOTER SECTION
+      Copyright notice at bottom of page
 ===================================================== -->
 
 <!-- footer HTML -->
