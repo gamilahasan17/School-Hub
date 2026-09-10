@@ -1,0 +1,525 @@
+
+:root {
+    --primary-blue: #2C5F6F;   /* الأزرق البترولي من اللوجو */
+    --accent-gold: #C08B4A;    /* الدهبي/البرونزي */
+    --bg-light: #F5F1E8;       /* البيج الفاتح للخلفية */
+    --text-dark: #1E3A42;      /* أزرق غامق جداً للنصوص */
+    --primary-teal: #1F4B54;   /* الأزرق البترولي الغامق - شنطة، دفاتر */
+    --accent-copper: #B8763E;  /* النحاسي/البرونزي - أقلام، مقلمة */
+    --bg-cream: #EDE4D3;       /* الكريمي/البيج - خلفية الصورة */
+    --text-dark2: #16262B;      /* غامق جداً للنصوص */
+    --strap-tan: #A67C52;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+   padding-top: 54px;
+   padding-bottom: 20px;
+   margin: 0;
+}
+/* start navigation styles icons */
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease ,transform 0.3s ease;
+}
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+/* font-size: 40px; */
+ /* background-color: rgba(248, 190, 29, 0.699); */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 25px;
+ background-color: #E77B49;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.top-icons {
+    display: flex;           /* بدل grid */
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+   padding-right: 25px;
+}
+.top-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--primary-blue);
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.top-icons a:hover {
+    transform: scale(1.2);
+    color: #08797dd0;
+}
+
+/* end navigation styles icons */
+/* start logo styles */
+
+.logo{
+     font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease ,transform 0.3s ease;
+    
+}
+.logo:hover {
+    color:#08797dd0;
+    transform: scale(1.05);
+}
+
+/* start home section styles */
+#Home {
+    background-image: url('../images/Al-Ahram-images/Al-Ahram\ background.png ');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    /* padding: 50px 20px; */
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Home h2 {
+    font-size: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.content {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* padding-top: 20px; */
+    border-radius: 10px;
+    /* max-width: 600px; */
+    margin-top: auto;
+align-items: center;
+justify-content: center;
+padding: 0.7rem;
+margin-bottom:  7rem;  ;
+margin-left: auto;
+margin-right: auto;
+    font-size: 1.2rem;
+}
+/* end home section styles */
+/* start section 1 styles */
+/* الكارت نفسه */
+.content-section1 {
+    position: relative; /* عشان نقدر نحط الأيقونة فوق الصورة بالظبط */
+    width: 250px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    height: 65vh;
+    justify-content: center;
+    margin:  auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* تأثير هوفر على الكارت كله */
+.content-section1:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* الصورة */
+.content-section1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* الأيقونة فوق الصورة */
+.content-section1 a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: #999; /* اللون الافتراضي */
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.content-section1 a:hover {
+    transform: scale(1.1);
+}
+
+/* لما نضيف كلاس active عن طريق الـ JS */
+.content-section1 a.active {
+    color: #e63946; /* أحمر مثلاً */
+}
+
+/* اسم المنتج */
+.content-section1 h2 {
+    font-size: 18px;
+    margin: 12px 0 4px;
+}
+
+/* السعر */
+.content-section1 p {
+    color: #555;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+
+/* التقييم */
+.content-section1 .rating {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* الزرار */
+.content-section1 .buy-now {
+    background-color: #2a2a72;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.content-section1 .buy-now:hover {
+    background-color: #1c1c50;
+}
+
+.content-section1 .buy-now:active {
+    transform: scale(0.96);
+}
+/* end section 1 styles */
+/* start section 2 styles */
+/* الكارت نفسه */
+.content-section2 {
+    position: relative; /* عشان نقدر نحط الأيقونة فوق الصورة بالظبط */
+    width: 250px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    height: 65vh;
+    justify-content: center;
+    margin:  auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* تأثير هوفر على الكارت كله */
+.content-section2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* الصورة */
+.content-section2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* الأيقونة فوق الصورة */
+.content-section2 a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: #999; /* اللون الافتراضي */
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.content-section2 a:hover {
+    transform: scale(1.1);
+}
+
+/* لما نضيف كلاس active عن طريق الـ JS */
+.content-section2 a.active {
+    color: #e63946; /* أحمر مثلاً */
+}
+
+/* اسم المنتج */
+.content-section2 h2 {
+    font-size: 18px;
+    margin: 12px 0 4px;
+}
+
+/* السعر */
+.content-section2 p {
+    color: #555;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+
+/* التقييم */
+.content-section2 .rating {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* الزرار */
+.content-section2 .buy-now {
+    background-color: #2a2a72;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.content-section2 .buy-now:hover {
+    background-color: #1c1c50;
+}
+
+.content-section2 .buy-now:active {
+    transform: scale(0.96);
+}
+/* end section 2 styles */
+/* start section 3 styles */
+/* الكارت نفسه */
+.content-section3 {
+    position: relative; /* عشان نقدر نحط الأيقونة فوق الصورة بالظبط */
+    width: 250px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    height: 65vh;
+    justify-content: center;
+    margin:  auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* تأثير هوفر على الكارت كله */
+.content-section3:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* الصورة */
+.content-section3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* الأيقونة فوق الصورة */
+.content-section3 a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: #999; /* اللون الافتراضي */
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.content-section3 a:hover {
+    transform: scale(1.1);
+}
+
+/* لما نضيف كلاس active عن طريق الـ JS */
+.content-section3 a.active {
+    color: #e63946; /* أحمر مثلاً */
+}
+
+/* اسم المنتج */
+.content-section3 h2 {
+    font-size: 18px;
+    margin: 12px 0 4px;
+}
+
+/* السعر */
+.content-section3 p {
+    color: #555;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+
+/* التقييم */
+.content-section3 .rating {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* الزرار */
+.content-section3 .buy-now {
+    background-color: #2a2a72;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.content-section3 .buy-now:hover {
+    background-color: #1c1c50;
+}
+
+.content-section3 .buy-now:active {
+    transform: scale(0.96);
+}
+/* end section 3 styles */
+/* start section 4 styles */
+/* الكارت نفسه */
+.content-section4 {
+    position: relative; /* عشان نقدر نحط الأيقونة فوق الصورة بالظبط */
+    width: 250px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    height: 65vh;
+    justify-content: center;
+    margin:  auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* تأثير هوفر على الكارت كله */
+.content-section4:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* الصورة */
+.content-section4 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* الأيقونة فوق الصورة */
+.content-section4 a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: #999; /* اللون الافتراضي */
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.content-section4 a:hover {
+    transform: scale(1.1);
+}
+
+/* لما نضيف كلاس active عن طريق الـ JS */
+.content-section4 a.active {
+    color: #e63946; /* أحمر مثلاً */
+}
+
+/* اسم المنتج */
+.content-section4 h2 {
+    font-size: 18px;
+    margin: 12px 0 4px;
+}
+
+/* السعر */
+.content-section4 p {
+    color: #555;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+
+/* التقييم */
+.content-section4 .rating {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* الزرار */
+.content-section4 .buy-now {
+    background-color: #2a2a72;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.content-section4 .buy-now:hover {
+    background-color: #1c1c50;
+}
+
+.content-section4 .buy-now:active {
+    transform: scale(0.96);
+}
+/* end section 4 styles */
