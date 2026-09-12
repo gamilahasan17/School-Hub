@@ -352,7 +352,7 @@ div button{
 .footer {
     min-height: 50vh;
     min-width: 100%;
-    width: max-content;
+    /* width: max-content; */
     background-color: #E77B49;
     display: flex;
     align-items:center; 
@@ -366,6 +366,7 @@ div button{
 }
 .All {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap:16px;
     width: 100%;
@@ -377,6 +378,8 @@ div button{
     border-radius: 10px;
     padding: 10px;
     width: 100%;
+    flex:1 1 250px;
+    box-sizing: border-box;
 }
 
 .Contact {
@@ -384,20 +387,127 @@ div button{
     border-radius: 10px;
     padding: 10px;
     width: 100%;
+       display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+     flex:1 1 250px;
+    box-sizing: border-box;
 
+}
+.Contact h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Contact a{
+  text-decoration: none !important; 
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+     
+}
+.Contact a i{
+    font-size: 35px;
+transition:  color 0.3s ease;    
+}
+.Contact a:hover {
+    background-color: #25D366;
+    color: #fff;
 }
 
 .Follow{
     width: 100%;
-    background-color: rgb(244 241 234);
+    text-decoration: none !important;
+    background-color: #f4f1ea;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+     flex:1 1 250px;
+    box-sizing: border-box;
+}
+.Follow h3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Follow>a{
+    text-decoration: none !important;
+    text-decoration: none; 
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease ,transform 0.3s ease;
+
+}
+
+.Follow a i{
+    text-decoration: none; 
+    color: #000;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    
+    transition: background-color 0.3s ease, color 0.3s ease
+}
+.Follow-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Follow a:hover {
+    transform: scale(1.15);
+}
+.Follow a{
+    text-decoration: none !important;
+
+ color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+
 }
 
+.Follow a:nth-child(1):hover { background-color: #1877F2; } /* فيسبوك */
+.Follow a:nth-child(1):hover i { color: #fff; }
+
+.Follow a:nth-child(2):hover { background-color: #E1306C; } /* انستجرام */
+.Follow a:nth-child(2):hover i { color: #fff; }
+
+.Follow a:nth-child(3):hover { background-color: #0077B5; } /* لينكدإن */
+.Follow a:nth-child(3):hover i { color: #fff; }
+
 .Rights {
+    
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 /* ===================== END FOOTER SECTION ===================== */
