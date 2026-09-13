@@ -84,13 +84,13 @@ body {
 
 /* start home section styles */
 #Home {
-    background-image: url('../images/Al-Ahram-images/Al-Ahram\ background.png ');
+    background-image: url('../images/Al-Ahram-images/backGround.png');
     background-size: cover;
     height: 100vh;
     display: flex;
     /* padding: 50px 20px; */
     text-align: center;
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
