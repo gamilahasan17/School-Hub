@@ -1,8 +1,5 @@
 // ==========================================
 // Language Toggle (English / Arabic)
-// Uses DOM (data attributes + querySelectorAll)
-// and an event listener, same idea as the
-// theme (dark/light) toggle we learned
 // ==========================================
 
 let toggleBtn = document.getElementById("lang-toggle");
