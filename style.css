@@ -578,3 +578,102 @@ body.rtl-mode .Follow {
 }
 
 /* ===================== END RTL OVERRIDES ===================== */
+
+/* ================= DARK / LIGHT MODE ================= */
+
+.theme-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.theme-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Dark Mode */
+
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+/* Navbar */
+
+body.dark-mode .navbar {
+    background-color: #222;
+}
+
+/* Hero */
+
+body.dark-mode .hero-section {
+    background-color: #222;
+}
+
+body.dark-mode .hero-content h1,
+body.dark-mode .hero-content p {
+    color: white;
+}
+
+/* Stores */
+
+body.dark-mode .stores-section {
+    background-color: #222;
+}
+
+body.dark-mode .stores-section h2 {
+    color: white;
+}
+
+body.dark-mode .store-card {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .store-card .card-title {
+    color: white;
+}
+
+/* Products */
+
+body.dark-mode .best-sellers {
+    background-color: #222;
+}
+
+body.dark-mode .best-sellers h2 {
+    color: white;
+}
+
+body.dark-mode .product-card {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .product-card .card-title {
+    color: white;
+}
+
+/* Form */
+
+body.dark-mode .container-form {
+    background-color: #333;
+}
+
+/* Footer */
+
+body.dark-mode .footer {
+    background-color: #222;
+}
+
+body.dark-mode .About,
+body.dark-mode .Contact,
+body.dark-mode .Follow {
+    background-color: #333;
+    color: white;
+}
