@@ -101,7 +101,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    direction: rtl;
 }
 
 .hero-section::before {
@@ -512,3 +511,70 @@ transition:  color 0.3s ease;
 }
 /* ===================== END FOOTER SECTION ===================== */
 
+/* =========================================================
+   RTL / ARABIC MODE OVERRIDES
+========================================================= */
+
+/* ---- GLOBAL ---- */
+body.rtl-mode {
+    text-align: right;
+}
+
+/* ---- NAVBAR SECTION ---- */
+body.rtl-mode .navbar-brand {
+    margin-left: 40px;
+}
+body.rtl-mode .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+body.rtl-mode #lang-toggle {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+
+/* ---- HERO SECTION ---- */
+body.rtl-mode .hero-section {
+    direction: rtl;
+}
+body:not(.rtl-mode) .hero-section {
+    direction: ltr;
+}
+body.rtl-mode .search-box {
+    flex-direction: row-reverse;
+}
+body.rtl-mode .search-box input {
+    text-align: right;
+}
+
+/* ---- STORES SECTION ---- */
+body.rtl-mode .store-info {
+    flex-direction: row-reverse;
+}
+body.rtl-mode .store-card .card-body {
+    text-align: right;
+}
+
+/* ---- PRODUCTS SECTION ---- */
+body.rtl-mode .product-card .card-body {
+    text-align: center; /* card content stays centered either way */
+}
+
+/* ---- FORM SECTION ---- */
+body.rtl-mode .container-form {
+    direction: rtl;
+    text-align: right;
+}
+body.rtl-mode .form-group input {
+    text-align: right;
+}
+
+/* ---- FOOTER SECTION ---- */
+body.rtl-mode .All {
+    flex-direction: row-reverse;
+}
+body.rtl-mode .Follow {
+    text-align: right;
+}
+
+/* ===================== END RTL OVERRIDES ===================== */
