@@ -191,6 +191,7 @@ body {
     .search-box button {
         padding: 15px;
     }
+    
 }
 
 /* ===================== END HERO SECTION ===================== */
@@ -520,7 +521,7 @@ transition:  color 0.3s ease;
     bottom: 20px;
     right: 20px;
 
-    background-color: #007bff;
+    background-color: #E77B49;
     color: white;
 
     border: none;
@@ -536,7 +537,7 @@ transition:  color 0.3s ease;
 }
 
 #returnTop:hover {
-    background-color: #0056b3;
+    background-color: #c95824;
 }
 
 /* ===================== END RETURN TO TOP BUTTON ===================== */
