@@ -12,7 +12,7 @@ body {
 
 }
 .navbar {
-    background-color: #E77B49;
+    background-color: #BC6C25;
     padding: 0.8rem 1.5rem;
     transition: background-color 0.3s ease;
     border-radius: 5px solid black;
@@ -170,7 +170,7 @@ body {
     padding: 0 25px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #E77B49;
+    background-color:  #BC6C25;
     color: white;
    
 }
@@ -317,36 +317,6 @@ body {
 /* ===================== END PRODUCTS SECTION ===================== */
 /*====================Form Section====================*/
 
-span{
-    color: rgb(209, 54, 54);
-    display: none;
-}
-div button{
-    margin: 8px;
-    padding: 8px;
-}
-*{
-    text-transform: capitalize;
-}
-.container-form{
-    /* width: 50%;
-    padding: 5px;
-    margin: 5px; */
-    background-color: #e77b49e7;
-    color: #eef0f2;
-}
-.form-group{
-    width: 50%;
-    padding: 5px;
-    margin: 5px;
-}
-.log-form{
-    padding: 5px;
-    font-size: 30px;
-    color: #000;
-}
-
-
 /* =========================================================
    FOOTER SECTION
    Copyright notice at bottom of page.
@@ -358,7 +328,7 @@ div button{
     min-height: 50vh;
     min-width: 100%;
     /* width: max-content; */
-    background-color: #E77B49;
+    background-color: #BC6C25;
     display: flex;
     align-items:center; 
     flex-direction: column;
