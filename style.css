@@ -174,6 +174,12 @@ body {
     color: white;
    
 }
+.search-box button {
+    order: 2;
+}
+.search-box input {
+    order: 1;
+}
 .order-btn {
     padding: 150px 25px;
     border: none;
@@ -545,12 +551,6 @@ body.rtl-mode .hero-section {
 }
 body:not(.rtl-mode) .hero-section {
     direction: ltr;
-}
- .search-box button {
-    order: 2;
-}
-.search-box input {
-    order: 1;
 }
 body.rtl-mode .search-box button {
     order: 1;
