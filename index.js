@@ -49,6 +49,7 @@ btn.onclick = function () {
  register.addEventListener("click",function(e){
      e.preventDefault();
       document.body.innerHTML = `
+      <h1>school hub</h1>
   <div class="container-form">
         <div class="form-group">
         <h3 class="log-form text-center" data-en="Registration form" data-ar="نموذج تسجيل الدخول">Registration form</h3> 
