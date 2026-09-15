@@ -323,36 +323,6 @@ body {
 /* ===================== END PRODUCTS SECTION ===================== */
 /*====================Form Section====================*/
 
-span{
-    color: rgb(209, 54, 54);
-    display: none;
-}
-div button{
-    margin: 8px;
-    padding: 8px;
-}
-*{
-    text-transform: capitalize;
-}
-.container-form{
-    /* width: 50%;
-    padding: 5px;
-    margin: 5px; */
-    background-color: #e77b49e7;
-    color: #eef0f2;
-}
-.form-group{
-    width: 50%;
-    padding: 5px;
-    margin: 5px;
-}
-.log-form{
-    padding: 5px;
-    font-size: 30px;
-    color: #000;
-}
-
-
 /* =========================================================
    FOOTER SECTION
    Copyright notice at bottom of page.

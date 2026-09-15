@@ -199,7 +199,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section1 .buy-now {
-    background-color: #2a2a72;
+    background-color: #334F4C;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -210,7 +210,7 @@ margin-right: auto;
 }
 
 .content-section1 .buy-now:hover {
-    background-color: #1c1c50;
+    background-color: #334F4C;
 }
 
 .content-section1 .buy-now:active {
@@ -301,7 +301,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section2 .buy-now {
-    background-color: #2a2a72;
+    background-color:#334F4C;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -403,7 +403,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section3 .buy-now {
-    background-color: #2a2a72;
+    background-color: #334F4C;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -505,7 +505,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section4 .buy-now {
-    background-color: #2a2a72;
+    background-color:#334F4C;
     color: white;
     border: none;
     padding: 10px 24px;
