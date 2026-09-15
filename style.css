@@ -12,7 +12,7 @@ body {
 
 }
 .navbar {
-    background-color: #E77B49;
+    background-color: #BC6C25;
     padding: 0.8rem 1.5rem;
     transition: background-color 0.3s ease;
     border-radius: 5px solid black;
@@ -170,9 +170,15 @@ body {
     padding: 0 25px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #E77B49;
+    background-color:  #BC6C25;
     color: white;
    
+}
+.search-box button {
+    order: 2;
+}
+.search-box input {
+    order: 1;
 }
 .order-btn {
     padding: 150px 25px;
@@ -358,7 +364,7 @@ div button{
     min-height: 50vh;
     min-width: 100%;
     /* width: max-content; */
-    background-color: #E77B49;
+    background-color: #BC6C25;
     display: flex;
     align-items:center; 
     flex-direction: column;
@@ -575,12 +581,6 @@ body.rtl-mode .hero-section {
 }
 body:not(.rtl-mode) .hero-section {
     direction: ltr;
-}
- .search-box button {
-    order: 2;
-}
-.search-box input {
-    order: 1;
 }
 body.rtl-mode .search-box button {
     order: 1;
