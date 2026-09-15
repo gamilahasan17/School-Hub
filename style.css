@@ -17,6 +17,9 @@ body {
     transition: background-color 0.3s ease;
     border-radius: 5px solid black;
 }
+.navbar-nav {
+    align-items: center;
+}
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: 700;
@@ -33,6 +36,8 @@ body {
     font-size: 1.05rem;
     margin: 0 0.6rem;
     position: relative;
+    display: inline-flex;
+    align-items: center;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 .navbar-nav .nav-link::after {
@@ -143,6 +148,7 @@ body {
 /* search part*/
 .search-box {
     display: flex;
+    direction: ltr;
     max-width: 600px;
     width: 100%;
     margin: 0 auto 20px;
@@ -490,7 +496,7 @@ transition:  color 0.3s ease;
     bottom: 20px;
     right: 20px;
 
-    background-color: #334F4C;
+    background-color: #08797dd0;
     color: white;
 
     border: none;
@@ -506,7 +512,7 @@ transition:  color 0.3s ease;
 }
 
 #returnTop:hover {
-    background-color: #0056b3;
+    background-color: #045356d0;
 }
 
 /* ===================== END RETURN TO TOP BUTTON ===================== */
@@ -540,8 +546,17 @@ body.rtl-mode .hero-section {
 body:not(.rtl-mode) .hero-section {
     direction: ltr;
 }
-body.rtl-mode .search-box {
-    flex-direction: row-reverse;
+ .search-box button {
+    order: 2;
+}
+.search-box input {
+    order: 1;
+}
+body.rtl-mode .search-box button {
+    order: 1;
+}
+body.rtl-mode .search-box input {
+    order: 2;
 }
 body.rtl-mode .search-box input {
     text-align: right;
@@ -591,6 +606,7 @@ body.rtl-mode .Follow {
     color: #333;
     font-weight: 600;
     transition: 0.3s;
+    line-height: 1.2;
 }
 
 .theme-btn:hover {
