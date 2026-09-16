@@ -14,7 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-   padding-top: 54px;
+   padding-top: 54px !important;
    padding-bottom: 20px;
    margin: 0;
 }
