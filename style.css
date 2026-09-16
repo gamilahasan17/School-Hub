@@ -324,13 +324,11 @@ body {
 
 /* =========================================================
    BUNDLES SECTION
-   Curated multi-item bundle deals, same card style
-   as Best Sellers, with a savings badge
 ========================================================= */
 
 .bundles {
-    background-color: #f8f9fa; /* match Stores section gray */
-    padding: 3rem 0; /* reduced spacing to align with other sections */
+    background-color: #f8f9fa; 
+    padding: 3rem 0; 
 }
 
 .bundles h2 {
@@ -360,7 +358,7 @@ body {
 
 .product-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.1); /* unified hover with stores/products */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
 
 .product-img-wrapper {
