@@ -329,6 +329,73 @@ body {
 /* ===================== END PRODUCTS SECTION ===================== */
 
 /* =========================================================
+   BUNDLES SECTION
+
+.bundles {
+    background-color: #f8f9fa; 
+    padding: 3rem 0; 
+}
+
+.bundles h2 {
+    font-weight: bold;
+    color: #222;
+}
+
+.bundle-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #08797dd0;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.product-img-wrapper {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.product-img-wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.product-card .card-body {
+    padding: 15px;
+}
+
+.product-card .card-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+/* ===================== END BUNDLES SECTION ===================== */
+
+
+/* =========================================================
    FOOTER SECTION
    Copyright notice at bottom of page.
 ========================================================= */
