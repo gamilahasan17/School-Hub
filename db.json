@@ -1,0 +1,2622 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Store One"
+    },
+    {
+      "id": 2,
+      "name": "Store Two"
+    },
+    {
+      "id": 3,
+      "name": "Store Three"
+    },
+    {
+      "id": 4,
+      "name": "Store Four"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Ballpoint Pen - Standard Gray",
+      "description": "Ballpoint Pen from Store One, part of the Pens & Writing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 40.17,
+      "rating": {
+        "rate": 3.5,
+        "count": 150
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Wooden Pencil - Premium Gold",
+      "description": "Wooden Pencil from Store One, part of the Pens & Writing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 18.47,
+      "rating": {
+        "rate": 3.7,
+        "count": 62
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 3,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Gel Ink Pen - Economy White",
+      "description": "Gel Ink Pen from Store One, part of the Pens & Writing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 42.22,
+      "rating": {
+        "rate": 4.8,
+        "count": 54
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 4,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Marker Pen - Special Blue",
+      "description": "Marker Pen from Store One, part of the Pens & Writing Tools category. Special quality, great for everyday school or university use.",
+      "price": 37.48,
+      "rating": {
+        "rate": 3.5,
+        "count": 57
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 5,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Coloring Pen - Modern Red",
+      "description": "Coloring Pen from Store One, part of the Pens & Writing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 17.03,
+      "rating": {
+        "rate": 4.3,
+        "count": 23
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 6,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Color Pen Set - Super Black",
+      "description": "Color Pen Set from Store One, part of the Pens & Writing Tools category. Super quality, great for everyday school or university use.",
+      "price": 35.87,
+      "rating": {
+        "rate": 4.6,
+        "count": 289
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 7,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Highlighter - Essential Green",
+      "description": "Highlighter from Store One, part of the Pens & Writing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 28.07,
+      "rating": {
+        "rate": 4.2,
+        "count": 152
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 8,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Mechanical Pencil - Classic Purple",
+      "description": "Mechanical Pencil from Store One, part of the Pens & Writing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 49.52,
+      "rating": {
+        "rate": 3.5,
+        "count": 91
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 9,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Black Gel Pen - Pro Pink",
+      "description": "Black Gel Pen from Store One, part of the Pens & Writing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 43.4,
+      "rating": {
+        "rate": 4.0,
+        "count": 89
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 10,
+      "storeId": 1,
+      "section": "Pens & Writing Tools",
+      "name": "Fountain Pen - Deluxe Orange",
+      "description": "Fountain Pen from Store One, part of the Pens & Writing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 16.84,
+      "rating": {
+        "rate": 4.6,
+        "count": 62
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 11,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Spiral Notebook 100 Sheets - Standard Gray",
+      "description": "Spiral Notebook 100 Sheets from Store One, part of the Notebooks & Notepads category. Standard quality, great for everyday school or university use.",
+      "price": 10.1,
+      "rating": {
+        "rate": 3.6,
+        "count": 186
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 12,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Pocket Notepad - Premium Gold",
+      "description": "Pocket Notepad from Store One, part of the Notebooks & Notepads category. Premium quality, great for everyday school or university use.",
+      "price": 38.2,
+      "rating": {
+        "rate": 4.7,
+        "count": 245
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 13,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Grid Notebook - Economy White",
+      "description": "Grid Notebook from Store One, part of the Notebooks & Notepads category. Economy quality, great for everyday school or university use.",
+      "price": 34.49,
+      "rating": {
+        "rate": 5.0,
+        "count": 203
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 14,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Lined Diary - Special Blue",
+      "description": "Lined Diary from Store One, part of the Notebooks & Notepads category. Special quality, great for everyday school or university use.",
+      "price": 9.33,
+      "rating": {
+        "rate": 3.9,
+        "count": 195
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 15,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Sketchbook - Modern Red",
+      "description": "Sketchbook from Store One, part of the Notebooks & Notepads category. Modern quality, great for everyday school or university use.",
+      "price": 36.75,
+      "rating": {
+        "rate": 4.6,
+        "count": 33
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 16,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Address Book - Super Black",
+      "description": "Address Book from Store One, part of the Notebooks & Notepads category. Super quality, great for everyday school or university use.",
+      "price": 41.37,
+      "rating": {
+        "rate": 4.7,
+        "count": 50
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 17,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Exam Booklet - Essential Green",
+      "description": "Exam Booklet from Store One, part of the Notebooks & Notepads category. Essential quality, great for everyday school or university use.",
+      "price": 52.04,
+      "rating": {
+        "rate": 4.8,
+        "count": 204
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 18,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Leather Journal - Classic Purple",
+      "description": "Leather Journal from Store One, part of the Notebooks & Notepads category. Classic quality, great for everyday school or university use.",
+      "price": 20.29,
+      "rating": {
+        "rate": 4.5,
+        "count": 196
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 19,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Ruled Notebook - Pro Pink",
+      "description": "Ruled Notebook from Store One, part of the Notebooks & Notepads category. Pro quality, great for everyday school or university use.",
+      "price": 13.95,
+      "rating": {
+        "rate": 4.0,
+        "count": 146
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 20,
+      "storeId": 1,
+      "section": "Notebooks & Notepads",
+      "name": "Multi-Section Notebook - Deluxe Orange",
+      "description": "Multi-Section Notebook from Store One, part of the Notebooks & Notepads category. Deluxe quality, great for everyday school or university use.",
+      "price": 43.6,
+      "rating": {
+        "rate": 4.5,
+        "count": 46
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 21,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Arabic Language Reference - Standard Gray",
+      "description": "Arabic Language Reference from Store One, part of the Books & Study References category. Standard quality, great for everyday school or university use.",
+      "price": 38.5,
+      "rating": {
+        "rate": 3.8,
+        "count": 135
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 22,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Math Textbook - Premium Gold",
+      "description": "Math Textbook from Store One, part of the Books & Study References category. Premium quality, great for everyday school or university use.",
+      "price": 13.99,
+      "rating": {
+        "rate": 4.1,
+        "count": 295
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 23,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Science Reference - Economy White",
+      "description": "Science Reference from Store One, part of the Books & Study References category. Economy quality, great for everyday school or university use.",
+      "price": 17.08,
+      "rating": {
+        "rate": 4.0,
+        "count": 38
+      },
+      "image": "https://images.pexels.com/photos/7989578/pexels-photo-7989578.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 24,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "English-Arabic Dictionary - Special Blue",
+      "description": "English-Arabic Dictionary from Store One, part of the Books & Study References category. Special quality, great for everyday school or university use.",
+      "price": 17.6,
+      "rating": {
+        "rate": 3.5,
+        "count": 171
+      },
+      "image": "https://images.pexels.com/photos/6963779/pexels-photo-6963779.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 25,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Children's Story Book - Modern Red",
+      "description": "Children's Story Book from Store One, part of the Books & Study References category. Modern quality, great for everyday school or university use.",
+      "price": 27.06,
+      "rating": {
+        "rate": 3.6,
+        "count": 300
+      },
+      "image": "https://images.pexels.com/photos/9719579/pexels-photo-9719579.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 26,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Social Studies Reference - Super Black",
+      "description": "Social Studies Reference from Store One, part of the Books & Study References category. Super quality, great for everyday school or university use.",
+      "price": 53.2,
+      "rating": {
+        "rate": 4.0,
+        "count": 265
+      },
+      "image": "https://images.pexels.com/photos/17732202/pexels-photo-17732202.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 27,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Activity Book - Essential Green",
+      "description": "Activity Book from Store One, part of the Books & Study References category. Essential quality, great for everyday school or university use.",
+      "price": 26.76,
+      "rating": {
+        "rate": 4.9,
+        "count": 244
+      },
+      "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 28,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "General Knowledge Encyclopedia - Classic Purple",
+      "description": "General Knowledge Encyclopedia from Store One, part of the Books & Study References category. Classic quality, great for everyday school or university use.",
+      "price": 12.86,
+      "rating": {
+        "rate": 3.7,
+        "count": 297
+      },
+      "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 29,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Foundation Course Book - Pro Pink",
+      "description": "Foundation Course Book from Store One, part of the Books & Study References category. Pro quality, great for everyday school or university use.",
+      "price": 34.64,
+      "rating": {
+        "rate": 4.6,
+        "count": 229
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 30,
+      "storeId": 1,
+      "section": "Books & Study References",
+      "name": "Final Revision Guide - Deluxe Orange",
+      "description": "Final Revision Guide from Store One, part of the Books & Study References category. Deluxe quality, great for everyday school or university use.",
+      "price": 54.38,
+      "rating": {
+        "rate": 4.1,
+        "count": 122
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 31,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Full Geometry Set - Standard Gray",
+      "description": "Full Geometry Set from Store One, part of the Geometry & Drawing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 59.85,
+      "rating": {
+        "rate": 3.7,
+        "count": 262
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 32,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "30cm Ruler - Premium Gold",
+      "description": "30cm Ruler from Store One, part of the Geometry & Drawing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 10.0,
+      "rating": {
+        "rate": 3.6,
+        "count": 66
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 33,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Drawing Compass - Economy White",
+      "description": "Drawing Compass from Store One, part of the Geometry & Drawing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 13.41,
+      "rating": {
+        "rate": 3.7,
+        "count": 226
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 34,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Protractor - Special Blue",
+      "description": "Protractor from Store One, part of the Geometry & Drawing Tools category. Special quality, great for everyday school or university use.",
+      "price": 37.8,
+      "rating": {
+        "rate": 4.1,
+        "count": 249
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 35,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Pencil Case - Modern Red",
+      "description": "Pencil Case from Store One, part of the Geometry & Drawing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 34.1,
+      "rating": {
+        "rate": 5.0,
+        "count": 15
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 36,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Eraser Pack - Super Black",
+      "description": "Eraser Pack from Store One, part of the Geometry & Drawing Tools category. Super quality, great for everyday school or university use.",
+      "price": 42.42,
+      "rating": {
+        "rate": 3.7,
+        "count": 284
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 37,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Wooden Color Pencils Set - Essential Green",
+      "description": "Wooden Color Pencils Set from Store One, part of the Geometry & Drawing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 46.3,
+      "rating": {
+        "rate": 4.7,
+        "count": 184
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 38,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Watercolor Set - Classic Purple",
+      "description": "Watercolor Set from Store One, part of the Geometry & Drawing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 11.14,
+      "rating": {
+        "rate": 4.2,
+        "count": 242
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 39,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Office Scissors - Pro Pink",
+      "description": "Office Scissors from Store One, part of the Geometry & Drawing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 5.18,
+      "rating": {
+        "rate": 4.6,
+        "count": 144
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 40,
+      "storeId": 1,
+      "section": "Geometry & Drawing Tools",
+      "name": "Mini Stapler - Deluxe Orange",
+      "description": "Mini Stapler from Store One, part of the Geometry & Drawing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 58.45,
+      "rating": {
+        "rate": 4.6,
+        "count": 269
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 41,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "School Backpack - Standard Gray",
+      "description": "School Backpack from Store One, part of the Bags & School Essentials category. Standard quality, great for everyday school or university use.",
+      "price": 55.19,
+      "rating": {
+        "rate": 4.8,
+        "count": 162
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 42,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Fabric Pencil Case - Premium Gold",
+      "description": "Fabric Pencil Case from Store One, part of the Bags & School Essentials category. Premium quality, great for everyday school or university use.",
+      "price": 51.29,
+      "rating": {
+        "rate": 4.3,
+        "count": 111
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 43,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "School Trolley Bag - Economy White",
+      "description": "School Trolley Bag from Store One, part of the Bags & School Essentials category. Economy quality, great for everyday school or university use.",
+      "price": 13.41,
+      "rating": {
+        "rate": 4.6,
+        "count": 286
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 44,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Book Cover Holder - Special Blue",
+      "description": "Book Cover Holder from Store One, part of the Bags & School Essentials category. Special quality, great for everyday school or university use.",
+      "price": 57.44,
+      "rating": {
+        "rate": 4.9,
+        "count": 10
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 45,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Sports Bag - Modern Red",
+      "description": "Sports Bag from Store One, part of the Bags & School Essentials category. Modern quality, great for everyday school or university use.",
+      "price": 37.94,
+      "rating": {
+        "rate": 4.2,
+        "count": 67
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 46,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "School Water Bottle - Super Black",
+      "description": "School Water Bottle from Store One, part of the Bags & School Essentials category. Super quality, great for everyday school or university use.",
+      "price": 56.1,
+      "rating": {
+        "rate": 4.8,
+        "count": 167
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 47,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Lunch Box - Essential Green",
+      "description": "Lunch Box from Store One, part of the Bags & School Essentials category. Essential quality, great for everyday school or university use.",
+      "price": 18.17,
+      "rating": {
+        "rate": 3.9,
+        "count": 300
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 48,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Laptop Bag - Classic Purple",
+      "description": "Laptop Bag from Store One, part of the Bags & School Essentials category. Classic quality, great for everyday school or university use.",
+      "price": 57.08,
+      "rating": {
+        "rate": 3.6,
+        "count": 258
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 49,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Metal Pen Case - Pro Pink",
+      "description": "Metal Pen Case from Store One, part of the Bags & School Essentials category. Pro quality, great for everyday school or university use.",
+      "price": 49.88,
+      "rating": {
+        "rate": 5.0,
+        "count": 282
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 50,
+      "storeId": 1,
+      "section": "Bags & School Essentials",
+      "name": "Desk Organizer - Deluxe Orange",
+      "description": "Desk Organizer from Store One, part of the Bags & School Essentials category. Deluxe quality, great for everyday school or university use.",
+      "price": 47.12,
+      "rating": {
+        "rate": 3.7,
+        "count": 253
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 51,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Ballpoint Pen - Special Purple",
+      "description": "Ballpoint Pen from Store Two, part of the Pens & Writing Tools category. Special quality, great for everyday school or university use.",
+      "price": 57.08,
+      "rating": {
+        "rate": 3.7,
+        "count": 280
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 52,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Wooden Pencil - Modern Pink",
+      "description": "Wooden Pencil from Store Two, part of the Pens & Writing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 52.98,
+      "rating": {
+        "rate": 4.1,
+        "count": 118
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 53,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Gel Ink Pen - Super Orange",
+      "description": "Gel Ink Pen from Store Two, part of the Pens & Writing Tools category. Super quality, great for everyday school or university use.",
+      "price": 56.09,
+      "rating": {
+        "rate": 4.6,
+        "count": 112
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 54,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Marker Pen - Essential Gray",
+      "description": "Marker Pen from Store Two, part of the Pens & Writing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 44.21,
+      "rating": {
+        "rate": 4.1,
+        "count": 201
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 55,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Coloring Pen - Classic Gold",
+      "description": "Coloring Pen from Store Two, part of the Pens & Writing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 29.1,
+      "rating": {
+        "rate": 4.3,
+        "count": 71
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 56,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Color Pen Set - Pro White",
+      "description": "Color Pen Set from Store Two, part of the Pens & Writing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 18.63,
+      "rating": {
+        "rate": 3.6,
+        "count": 20
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 57,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Highlighter - Deluxe Blue",
+      "description": "Highlighter from Store Two, part of the Pens & Writing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 37.36,
+      "rating": {
+        "rate": 3.8,
+        "count": 122
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 58,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Mechanical Pencil - Standard Red",
+      "description": "Mechanical Pencil from Store Two, part of the Pens & Writing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 5.4,
+      "rating": {
+        "rate": 4.6,
+        "count": 40
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 59,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Black Gel Pen - Premium Black",
+      "description": "Black Gel Pen from Store Two, part of the Pens & Writing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 17.59,
+      "rating": {
+        "rate": 4.9,
+        "count": 179
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 60,
+      "storeId": 2,
+      "section": "Pens & Writing Tools",
+      "name": "Fountain Pen - Economy Green",
+      "description": "Fountain Pen from Store Two, part of the Pens & Writing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 8.9,
+      "rating": {
+        "rate": 3.9,
+        "count": 258
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 61,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Spiral Notebook 100 Sheets - Special Purple",
+      "description": "Spiral Notebook 100 Sheets from Store Two, part of the Notebooks & Notepads category. Special quality, great for everyday school or university use.",
+      "price": 16.78,
+      "rating": {
+        "rate": 3.7,
+        "count": 252
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 62,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Pocket Notepad - Modern Pink",
+      "description": "Pocket Notepad from Store Two, part of the Notebooks & Notepads category. Modern quality, great for everyday school or university use.",
+      "price": 18.36,
+      "rating": {
+        "rate": 4.2,
+        "count": 218
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 63,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Grid Notebook - Super Orange",
+      "description": "Grid Notebook from Store Two, part of the Notebooks & Notepads category. Super quality, great for everyday school or university use.",
+      "price": 15.47,
+      "rating": {
+        "rate": 3.6,
+        "count": 230
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 64,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Lined Diary - Essential Gray",
+      "description": "Lined Diary from Store Two, part of the Notebooks & Notepads category. Essential quality, great for everyday school or university use.",
+      "price": 24.49,
+      "rating": {
+        "rate": 4.1,
+        "count": 37
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 65,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Sketchbook - Classic Gold",
+      "description": "Sketchbook from Store Two, part of the Notebooks & Notepads category. Classic quality, great for everyday school or university use.",
+      "price": 42.04,
+      "rating": {
+        "rate": 5.0,
+        "count": 60
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 66,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Address Book - Pro White",
+      "description": "Address Book from Store Two, part of the Notebooks & Notepads category. Pro quality, great for everyday school or university use.",
+      "price": 8.33,
+      "rating": {
+        "rate": 4.6,
+        "count": 65
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 67,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Exam Booklet - Deluxe Blue",
+      "description": "Exam Booklet from Store Two, part of the Notebooks & Notepads category. Deluxe quality, great for everyday school or university use.",
+      "price": 18.68,
+      "rating": {
+        "rate": 3.8,
+        "count": 239
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 68,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Leather Journal - Standard Red",
+      "description": "Leather Journal from Store Two, part of the Notebooks & Notepads category. Standard quality, great for everyday school or university use.",
+      "price": 12.71,
+      "rating": {
+        "rate": 3.8,
+        "count": 246
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 69,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Ruled Notebook - Premium Black",
+      "description": "Ruled Notebook from Store Two, part of the Notebooks & Notepads category. Premium quality, great for everyday school or university use.",
+      "price": 18.74,
+      "rating": {
+        "rate": 4.9,
+        "count": 236
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 70,
+      "storeId": 2,
+      "section": "Notebooks & Notepads",
+      "name": "Multi-Section Notebook - Economy Green",
+      "description": "Multi-Section Notebook from Store Two, part of the Notebooks & Notepads category. Economy quality, great for everyday school or university use.",
+      "price": 49.44,
+      "rating": {
+        "rate": 4.8,
+        "count": 60
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 71,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Arabic Language Reference - Special Purple",
+      "description": "Arabic Language Reference from Store Two, part of the Books & Study References category. Special quality, great for everyday school or university use.",
+      "price": 7.78,
+      "rating": {
+        "rate": 5.0,
+        "count": 17
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 72,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Math Textbook - Modern Pink",
+      "description": "Math Textbook from Store Two, part of the Books & Study References category. Modern quality, great for everyday school or university use.",
+      "price": 58.29,
+      "rating": {
+        "rate": 4.9,
+        "count": 131
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 73,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Science Reference - Super Orange",
+      "description": "Science Reference from Store Two, part of the Books & Study References category. Super quality, great for everyday school or university use.",
+      "price": 14.15,
+      "rating": {
+        "rate": 4.2,
+        "count": 119
+      },
+      "image": "https://images.pexels.com/photos/7989578/pexels-photo-7989578.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 74,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "English-Arabic Dictionary - Essential Gray",
+      "description": "English-Arabic Dictionary from Store Two, part of the Books & Study References category. Essential quality, great for everyday school or university use.",
+      "price": 52.56,
+      "rating": {
+        "rate": 4.9,
+        "count": 94
+      },
+      "image": "https://images.pexels.com/photos/6963779/pexels-photo-6963779.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 75,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Children's Story Book - Classic Gold",
+      "description": "Children's Story Book from Store Two, part of the Books & Study References category. Classic quality, great for everyday school or university use.",
+      "price": 25.84,
+      "rating": {
+        "rate": 5.0,
+        "count": 145
+      },
+      "image": "https://images.pexels.com/photos/9719579/pexels-photo-9719579.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 76,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Social Studies Reference - Pro White",
+      "description": "Social Studies Reference from Store Two, part of the Books & Study References category. Pro quality, great for everyday school or university use.",
+      "price": 55.96,
+      "rating": {
+        "rate": 4.7,
+        "count": 156
+      },
+      "image": "https://images.pexels.com/photos/17732202/pexels-photo-17732202.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 77,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Activity Book - Deluxe Blue",
+      "description": "Activity Book from Store Two, part of the Books & Study References category. Deluxe quality, great for everyday school or university use.",
+      "price": 28.27,
+      "rating": {
+        "rate": 4.9,
+        "count": 294
+      },
+      "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 78,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "General Knowledge Encyclopedia - Standard Red",
+      "description": "General Knowledge Encyclopedia from Store Two, part of the Books & Study References category. Standard quality, great for everyday school or university use.",
+      "price": 41.4,
+      "rating": {
+        "rate": 4.2,
+        "count": 107
+      },
+      "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 79,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Foundation Course Book - Premium Black",
+      "description": "Foundation Course Book from Store Two, part of the Books & Study References category. Premium quality, great for everyday school or university use.",
+      "price": 21.32,
+      "rating": {
+        "rate": 5.0,
+        "count": 287
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 80,
+      "storeId": 2,
+      "section": "Books & Study References",
+      "name": "Final Revision Guide - Economy Green",
+      "description": "Final Revision Guide from Store Two, part of the Books & Study References category. Economy quality, great for everyday school or university use.",
+      "price": 8.35,
+      "rating": {
+        "rate": 4.0,
+        "count": 35
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 81,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Full Geometry Set - Special Purple",
+      "description": "Full Geometry Set from Store Two, part of the Geometry & Drawing Tools category. Special quality, great for everyday school or university use.",
+      "price": 37.13,
+      "rating": {
+        "rate": 4.3,
+        "count": 281
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 82,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "30cm Ruler - Modern Pink",
+      "description": "30cm Ruler from Store Two, part of the Geometry & Drawing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 13.66,
+      "rating": {
+        "rate": 4.9,
+        "count": 51
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 83,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Drawing Compass - Super Orange",
+      "description": "Drawing Compass from Store Two, part of the Geometry & Drawing Tools category. Super quality, great for everyday school or university use.",
+      "price": 51.82,
+      "rating": {
+        "rate": 3.6,
+        "count": 44
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 84,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Protractor - Essential Gray",
+      "description": "Protractor from Store Two, part of the Geometry & Drawing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 42.14,
+      "rating": {
+        "rate": 3.9,
+        "count": 71
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 85,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Pencil Case - Classic Gold",
+      "description": "Pencil Case from Store Two, part of the Geometry & Drawing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 56.79,
+      "rating": {
+        "rate": 4.4,
+        "count": 30
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 86,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Eraser Pack - Pro White",
+      "description": "Eraser Pack from Store Two, part of the Geometry & Drawing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 39.07,
+      "rating": {
+        "rate": 4.1,
+        "count": 299
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 87,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Wooden Color Pencils Set - Deluxe Blue",
+      "description": "Wooden Color Pencils Set from Store Two, part of the Geometry & Drawing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 33.75,
+      "rating": {
+        "rate": 4.9,
+        "count": 114
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 88,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Watercolor Set - Standard Red",
+      "description": "Watercolor Set from Store Two, part of the Geometry & Drawing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 41.83,
+      "rating": {
+        "rate": 4.0,
+        "count": 145
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 89,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Office Scissors - Premium Black",
+      "description": "Office Scissors from Store Two, part of the Geometry & Drawing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 26.77,
+      "rating": {
+        "rate": 4.5,
+        "count": 163
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 90,
+      "storeId": 2,
+      "section": "Geometry & Drawing Tools",
+      "name": "Mini Stapler - Economy Green",
+      "description": "Mini Stapler from Store Two, part of the Geometry & Drawing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 30.15,
+      "rating": {
+        "rate": 4.9,
+        "count": 47
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 91,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "School Backpack - Special Purple",
+      "description": "School Backpack from Store Two, part of the Bags & School Essentials category. Special quality, great for everyday school or university use.",
+      "price": 5.51,
+      "rating": {
+        "rate": 4.4,
+        "count": 298
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 92,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Fabric Pencil Case - Modern Pink",
+      "description": "Fabric Pencil Case from Store Two, part of the Bags & School Essentials category. Modern quality, great for everyday school or university use.",
+      "price": 59.79,
+      "rating": {
+        "rate": 3.6,
+        "count": 119
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 93,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "School Trolley Bag - Super Orange",
+      "description": "School Trolley Bag from Store Two, part of the Bags & School Essentials category. Super quality, great for everyday school or university use.",
+      "price": 32.82,
+      "rating": {
+        "rate": 3.7,
+        "count": 188
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 94,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Book Cover Holder - Essential Gray",
+      "description": "Book Cover Holder from Store Two, part of the Bags & School Essentials category. Essential quality, great for everyday school or university use.",
+      "price": 53.45,
+      "rating": {
+        "rate": 4.8,
+        "count": 199
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 95,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Sports Bag - Classic Gold",
+      "description": "Sports Bag from Store Two, part of the Bags & School Essentials category. Classic quality, great for everyday school or university use.",
+      "price": 20.67,
+      "rating": {
+        "rate": 4.2,
+        "count": 288
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 96,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "School Water Bottle - Pro White",
+      "description": "School Water Bottle from Store Two, part of the Bags & School Essentials category. Pro quality, great for everyday school or university use.",
+      "price": 43.69,
+      "rating": {
+        "rate": 4.4,
+        "count": 280
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 97,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Lunch Box - Deluxe Blue",
+      "description": "Lunch Box from Store Two, part of the Bags & School Essentials category. Deluxe quality, great for everyday school or university use.",
+      "price": 5.43,
+      "rating": {
+        "rate": 4.7,
+        "count": 163
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 98,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Laptop Bag - Standard Red",
+      "description": "Laptop Bag from Store Two, part of the Bags & School Essentials category. Standard quality, great for everyday school or university use.",
+      "price": 56.25,
+      "rating": {
+        "rate": 3.7,
+        "count": 78
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 99,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Metal Pen Case - Premium Black",
+      "description": "Metal Pen Case from Store Two, part of the Bags & School Essentials category. Premium quality, great for everyday school or university use.",
+      "price": 19.55,
+      "rating": {
+        "rate": 4.8,
+        "count": 293
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 100,
+      "storeId": 2,
+      "section": "Bags & School Essentials",
+      "name": "Desk Organizer - Economy Green",
+      "description": "Desk Organizer from Store Two, part of the Bags & School Essentials category. Economy quality, great for everyday school or university use.",
+      "price": 13.55,
+      "rating": {
+        "rate": 3.9,
+        "count": 117
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 101,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Ballpoint Pen - Essential Red",
+      "description": "Ballpoint Pen from Store Three, part of the Pens & Writing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 44.47,
+      "rating": {
+        "rate": 3.8,
+        "count": 145
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 102,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Wooden Pencil - Classic Black",
+      "description": "Wooden Pencil from Store Three, part of the Pens & Writing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 32.8,
+      "rating": {
+        "rate": 3.9,
+        "count": 36
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 103,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Gel Ink Pen - Pro Green",
+      "description": "Gel Ink Pen from Store Three, part of the Pens & Writing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 10.08,
+      "rating": {
+        "rate": 4.1,
+        "count": 151
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 104,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Marker Pen - Deluxe Purple",
+      "description": "Marker Pen from Store Three, part of the Pens & Writing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 7.42,
+      "rating": {
+        "rate": 4.0,
+        "count": 76
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 105,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Coloring Pen - Standard Pink",
+      "description": "Coloring Pen from Store Three, part of the Pens & Writing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 40.04,
+      "rating": {
+        "rate": 3.9,
+        "count": 236
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 106,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Color Pen Set - Premium Orange",
+      "description": "Color Pen Set from Store Three, part of the Pens & Writing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 35.34,
+      "rating": {
+        "rate": 4.1,
+        "count": 14
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 107,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Highlighter - Economy Gray",
+      "description": "Highlighter from Store Three, part of the Pens & Writing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 11.15,
+      "rating": {
+        "rate": 4.9,
+        "count": 86
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 108,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Mechanical Pencil - Special Gold",
+      "description": "Mechanical Pencil from Store Three, part of the Pens & Writing Tools category. Special quality, great for everyday school or university use.",
+      "price": 35.01,
+      "rating": {
+        "rate": 4.8,
+        "count": 292
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 109,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Black Gel Pen - Modern White",
+      "description": "Black Gel Pen from Store Three, part of the Pens & Writing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 13.15,
+      "rating": {
+        "rate": 3.7,
+        "count": 167
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 110,
+      "storeId": 3,
+      "section": "Pens & Writing Tools",
+      "name": "Fountain Pen - Super Blue",
+      "description": "Fountain Pen from Store Three, part of the Pens & Writing Tools category. Super quality, great for everyday school or university use.",
+      "price": 25.06,
+      "rating": {
+        "rate": 4.9,
+        "count": 30
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 111,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Spiral Notebook 100 Sheets - Essential Red",
+      "description": "Spiral Notebook 100 Sheets from Store Three, part of the Notebooks & Notepads category. Essential quality, great for everyday school or university use.",
+      "price": 54.44,
+      "rating": {
+        "rate": 3.8,
+        "count": 137
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 112,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Pocket Notepad - Classic Black",
+      "description": "Pocket Notepad from Store Three, part of the Notebooks & Notepads category. Classic quality, great for everyday school or university use.",
+      "price": 41.68,
+      "rating": {
+        "rate": 4.0,
+        "count": 296
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 113,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Grid Notebook - Pro Green",
+      "description": "Grid Notebook from Store Three, part of the Notebooks & Notepads category. Pro quality, great for everyday school or university use.",
+      "price": 53.63,
+      "rating": {
+        "rate": 4.1,
+        "count": 89
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 114,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Lined Diary - Deluxe Purple",
+      "description": "Lined Diary from Store Three, part of the Notebooks & Notepads category. Deluxe quality, great for everyday school or university use.",
+      "price": 55.92,
+      "rating": {
+        "rate": 3.9,
+        "count": 93
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 115,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Sketchbook - Standard Pink",
+      "description": "Sketchbook from Store Three, part of the Notebooks & Notepads category. Standard quality, great for everyday school or university use.",
+      "price": 58.69,
+      "rating": {
+        "rate": 4.7,
+        "count": 221
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 116,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Address Book - Premium Orange",
+      "description": "Address Book from Store Three, part of the Notebooks & Notepads category. Premium quality, great for everyday school or university use.",
+      "price": 6.36,
+      "rating": {
+        "rate": 4.6,
+        "count": 180
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 117,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Exam Booklet - Economy Gray",
+      "description": "Exam Booklet from Store Three, part of the Notebooks & Notepads category. Economy quality, great for everyday school or university use.",
+      "price": 48.03,
+      "rating": {
+        "rate": 4.1,
+        "count": 137
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 118,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Leather Journal - Special Gold",
+      "description": "Leather Journal from Store Three, part of the Notebooks & Notepads category. Special quality, great for everyday school or university use.",
+      "price": 19.67,
+      "rating": {
+        "rate": 4.7,
+        "count": 65
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 119,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Ruled Notebook - Modern White",
+      "description": "Ruled Notebook from Store Three, part of the Notebooks & Notepads category. Modern quality, great for everyday school or university use.",
+      "price": 26.04,
+      "rating": {
+        "rate": 3.6,
+        "count": 250
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 120,
+      "storeId": 3,
+      "section": "Notebooks & Notepads",
+      "name": "Multi-Section Notebook - Super Blue",
+      "description": "Multi-Section Notebook from Store Three, part of the Notebooks & Notepads category. Super quality, great for everyday school or university use.",
+      "price": 17.23,
+      "rating": {
+        "rate": 4.7,
+        "count": 245
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 121,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Arabic Language Reference - Essential Red",
+      "description": "Arabic Language Reference from Store Three, part of the Books & Study References category. Essential quality, great for everyday school or university use.",
+      "price": 24.23,
+      "rating": {
+        "rate": 4.7,
+        "count": 126
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 122,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Math Textbook - Classic Black",
+      "description": "Math Textbook from Store Three, part of the Books & Study References category. Classic quality, great for everyday school or university use.",
+      "price": 17.26,
+      "rating": {
+        "rate": 4.5,
+        "count": 214
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 123,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Science Reference - Pro Green",
+      "description": "Science Reference from Store Three, part of the Books & Study References category. Pro quality, great for everyday school or university use.",
+      "price": 23.05,
+      "rating": {
+        "rate": 4.8,
+        "count": 152
+      },
+      "image": "https://images.pexels.com/photos/7989578/pexels-photo-7989578.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 124,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "English-Arabic Dictionary - Deluxe Purple",
+      "description": "English-Arabic Dictionary from Store Three, part of the Books & Study References category. Deluxe quality, great for everyday school or university use.",
+      "price": 24.31,
+      "rating": {
+        "rate": 4.3,
+        "count": 284
+      },
+      "image": "https://images.pexels.com/photos/6963779/pexels-photo-6963779.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 125,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Children's Story Book - Standard Pink",
+      "description": "Children's Story Book from Store Three, part of the Books & Study References category. Standard quality, great for everyday school or university use.",
+      "price": 23.21,
+      "rating": {
+        "rate": 3.5,
+        "count": 143
+      },
+      "image": "https://images.pexels.com/photos/9719579/pexels-photo-9719579.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 126,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Social Studies Reference - Premium Orange",
+      "description": "Social Studies Reference from Store Three, part of the Books & Study References category. Premium quality, great for everyday school or university use.",
+      "price": 14.82,
+      "rating": {
+        "rate": 4.9,
+        "count": 145
+      },
+      "image": "https://images.pexels.com/photos/17732202/pexels-photo-17732202.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 127,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Activity Book - Economy Gray",
+      "description": "Activity Book from Store Three, part of the Books & Study References category. Economy quality, great for everyday school or university use.",
+      "price": 7.1,
+      "rating": {
+        "rate": 4.4,
+        "count": 186
+      },
+      "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 128,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "General Knowledge Encyclopedia - Special Gold",
+      "description": "General Knowledge Encyclopedia from Store Three, part of the Books & Study References category. Special quality, great for everyday school or university use.",
+      "price": 45.07,
+      "rating": {
+        "rate": 4.0,
+        "count": 271
+      },
+      "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 129,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Foundation Course Book - Modern White",
+      "description": "Foundation Course Book from Store Three, part of the Books & Study References category. Modern quality, great for everyday school or university use.",
+      "price": 11.36,
+      "rating": {
+        "rate": 4.8,
+        "count": 107
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 130,
+      "storeId": 3,
+      "section": "Books & Study References",
+      "name": "Final Revision Guide - Super Blue",
+      "description": "Final Revision Guide from Store Three, part of the Books & Study References category. Super quality, great for everyday school or university use.",
+      "price": 19.01,
+      "rating": {
+        "rate": 4.6,
+        "count": 10
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 131,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Full Geometry Set - Essential Red",
+      "description": "Full Geometry Set from Store Three, part of the Geometry & Drawing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 33.6,
+      "rating": {
+        "rate": 4.7,
+        "count": 110
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 132,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "30cm Ruler - Classic Black",
+      "description": "30cm Ruler from Store Three, part of the Geometry & Drawing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 25.03,
+      "rating": {
+        "rate": 3.6,
+        "count": 179
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 133,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Drawing Compass - Pro Green",
+      "description": "Drawing Compass from Store Three, part of the Geometry & Drawing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 39.27,
+      "rating": {
+        "rate": 4.5,
+        "count": 73
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 134,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Protractor - Deluxe Purple",
+      "description": "Protractor from Store Three, part of the Geometry & Drawing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 44.59,
+      "rating": {
+        "rate": 4.0,
+        "count": 168
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 135,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Pencil Case - Standard Pink",
+      "description": "Pencil Case from Store Three, part of the Geometry & Drawing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 41.68,
+      "rating": {
+        "rate": 4.0,
+        "count": 161
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 136,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Eraser Pack - Premium Orange",
+      "description": "Eraser Pack from Store Three, part of the Geometry & Drawing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 35.49,
+      "rating": {
+        "rate": 3.8,
+        "count": 204
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 137,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Wooden Color Pencils Set - Economy Gray",
+      "description": "Wooden Color Pencils Set from Store Three, part of the Geometry & Drawing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 42.25,
+      "rating": {
+        "rate": 4.9,
+        "count": 164
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 138,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Watercolor Set - Special Gold",
+      "description": "Watercolor Set from Store Three, part of the Geometry & Drawing Tools category. Special quality, great for everyday school or university use.",
+      "price": 27.33,
+      "rating": {
+        "rate": 4.8,
+        "count": 165
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 139,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Office Scissors - Modern White",
+      "description": "Office Scissors from Store Three, part of the Geometry & Drawing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 20.78,
+      "rating": {
+        "rate": 4.1,
+        "count": 174
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 140,
+      "storeId": 3,
+      "section": "Geometry & Drawing Tools",
+      "name": "Mini Stapler - Super Blue",
+      "description": "Mini Stapler from Store Three, part of the Geometry & Drawing Tools category. Super quality, great for everyday school or university use.",
+      "price": 30.57,
+      "rating": {
+        "rate": 4.2,
+        "count": 119
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 141,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "School Backpack - Essential Red",
+      "description": "School Backpack from Store Three, part of the Bags & School Essentials category. Essential quality, great for everyday school or university use.",
+      "price": 33.11,
+      "rating": {
+        "rate": 4.7,
+        "count": 96
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 142,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Fabric Pencil Case - Classic Black",
+      "description": "Fabric Pencil Case from Store Three, part of the Bags & School Essentials category. Classic quality, great for everyday school or university use.",
+      "price": 41.24,
+      "rating": {
+        "rate": 3.9,
+        "count": 181
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 143,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "School Trolley Bag - Pro Green",
+      "description": "School Trolley Bag from Store Three, part of the Bags & School Essentials category. Pro quality, great for everyday school or university use.",
+      "price": 10.14,
+      "rating": {
+        "rate": 4.9,
+        "count": 130
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 144,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Book Cover Holder - Deluxe Purple",
+      "description": "Book Cover Holder from Store Three, part of the Bags & School Essentials category. Deluxe quality, great for everyday school or university use.",
+      "price": 42.0,
+      "rating": {
+        "rate": 3.8,
+        "count": 111
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 145,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Sports Bag - Standard Pink",
+      "description": "Sports Bag from Store Three, part of the Bags & School Essentials category. Standard quality, great for everyday school or university use.",
+      "price": 13.1,
+      "rating": {
+        "rate": 3.6,
+        "count": 253
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 146,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "School Water Bottle - Premium Orange",
+      "description": "School Water Bottle from Store Three, part of the Bags & School Essentials category. Premium quality, great for everyday school or university use.",
+      "price": 38.62,
+      "rating": {
+        "rate": 4.7,
+        "count": 243
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 147,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Lunch Box - Economy Gray",
+      "description": "Lunch Box from Store Three, part of the Bags & School Essentials category. Economy quality, great for everyday school or university use.",
+      "price": 27.79,
+      "rating": {
+        "rate": 4.4,
+        "count": 109
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 148,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Laptop Bag - Special Gold",
+      "description": "Laptop Bag from Store Three, part of the Bags & School Essentials category. Special quality, great for everyday school or university use.",
+      "price": 44.51,
+      "rating": {
+        "rate": 4.1,
+        "count": 214
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 149,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Metal Pen Case - Modern White",
+      "description": "Metal Pen Case from Store Three, part of the Bags & School Essentials category. Modern quality, great for everyday school or university use.",
+      "price": 18.42,
+      "rating": {
+        "rate": 4.5,
+        "count": 12
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 150,
+      "storeId": 3,
+      "section": "Bags & School Essentials",
+      "name": "Desk Organizer - Super Blue",
+      "description": "Desk Organizer from Store Three, part of the Bags & School Essentials category. Super quality, great for everyday school or university use.",
+      "price": 54.1,
+      "rating": {
+        "rate": 4.8,
+        "count": 64
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 151,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Ballpoint Pen - Deluxe Gold",
+      "description": "Ballpoint Pen from Store Four, part of the Pens & Writing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 47.81,
+      "rating": {
+        "rate": 3.8,
+        "count": 275
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 152,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Wooden Pencil - Standard White",
+      "description": "Wooden Pencil from Store Four, part of the Pens & Writing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 30.55,
+      "rating": {
+        "rate": 4.3,
+        "count": 72
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 153,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Gel Ink Pen - Premium Blue",
+      "description": "Gel Ink Pen from Store Four, part of the Pens & Writing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 30.11,
+      "rating": {
+        "rate": 4.7,
+        "count": 281
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 154,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Marker Pen - Economy Red",
+      "description": "Marker Pen from Store Four, part of the Pens & Writing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 59.33,
+      "rating": {
+        "rate": 4.4,
+        "count": 236
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 155,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Coloring Pen - Special Black",
+      "description": "Coloring Pen from Store Four, part of the Pens & Writing Tools category. Special quality, great for everyday school or university use.",
+      "price": 38.7,
+      "rating": {
+        "rate": 4.6,
+        "count": 268
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 156,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Color Pen Set - Modern Green",
+      "description": "Color Pen Set from Store Four, part of the Pens & Writing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 28.47,
+      "rating": {
+        "rate": 4.9,
+        "count": 238
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 157,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Highlighter - Super Purple",
+      "description": "Highlighter from Store Four, part of the Pens & Writing Tools category. Super quality, great for everyday school or university use.",
+      "price": 54.35,
+      "rating": {
+        "rate": 4.6,
+        "count": 253
+      },
+      "image": "https://images.pexels.com/photos/1119789/pexels-photo-1119789.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 158,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Mechanical Pencil - Essential Pink",
+      "description": "Mechanical Pencil from Store Four, part of the Pens & Writing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 29.75,
+      "rating": {
+        "rate": 4.6,
+        "count": 151
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 159,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Black Gel Pen - Classic Orange",
+      "description": "Black Gel Pen from Store Four, part of the Pens & Writing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 47.12,
+      "rating": {
+        "rate": 4.3,
+        "count": 132
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 160,
+      "storeId": 4,
+      "section": "Pens & Writing Tools",
+      "name": "Fountain Pen - Pro Gray",
+      "description": "Fountain Pen from Store Four, part of the Pens & Writing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 20.1,
+      "rating": {
+        "rate": 3.6,
+        "count": 156
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 161,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Spiral Notebook 100 Sheets - Deluxe Gold",
+      "description": "Spiral Notebook 100 Sheets from Store Four, part of the Notebooks & Notepads category. Deluxe quality, great for everyday school or university use.",
+      "price": 17.9,
+      "rating": {
+        "rate": 4.0,
+        "count": 286
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 162,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Pocket Notepad - Standard White",
+      "description": "Pocket Notepad from Store Four, part of the Notebooks & Notepads category. Standard quality, great for everyday school or university use.",
+      "price": 9.43,
+      "rating": {
+        "rate": 3.7,
+        "count": 206
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 163,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Grid Notebook - Premium Blue",
+      "description": "Grid Notebook from Store Four, part of the Notebooks & Notepads category. Premium quality, great for everyday school or university use.",
+      "price": 43.17,
+      "rating": {
+        "rate": 4.6,
+        "count": 42
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 164,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Lined Diary - Economy Red",
+      "description": "Lined Diary from Store Four, part of the Notebooks & Notepads category. Economy quality, great for everyday school or university use.",
+      "price": 27.82,
+      "rating": {
+        "rate": 4.0,
+        "count": 248
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 165,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Sketchbook - Special Black",
+      "description": "Sketchbook from Store Four, part of the Notebooks & Notepads category. Special quality, great for everyday school or university use.",
+      "price": 27.87,
+      "rating": {
+        "rate": 3.8,
+        "count": 225
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 166,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Address Book - Modern Green",
+      "description": "Address Book from Store Four, part of the Notebooks & Notepads category. Modern quality, great for everyday school or university use.",
+      "price": 26.42,
+      "rating": {
+        "rate": 4.7,
+        "count": 20
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 167,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Exam Booklet - Super Purple",
+      "description": "Exam Booklet from Store Four, part of the Notebooks & Notepads category. Super quality, great for everyday school or university use.",
+      "price": 52.12,
+      "rating": {
+        "rate": 4.6,
+        "count": 204
+      },
+      "image": "https://images.pexels.com/photos/8586182/pexels-photo-8586182.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 168,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Leather Journal - Essential Pink",
+      "description": "Leather Journal from Store Four, part of the Notebooks & Notepads category. Essential quality, great for everyday school or university use.",
+      "price": 31.23,
+      "rating": {
+        "rate": 4.9,
+        "count": 162
+      },
+      "image": "https://images.pexels.com/photos/1119792/pexels-photo-1119792.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 169,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Ruled Notebook - Classic Orange",
+      "description": "Ruled Notebook from Store Four, part of the Notebooks & Notepads category. Classic quality, great for everyday school or university use.",
+      "price": 46.44,
+      "rating": {
+        "rate": 4.8,
+        "count": 224
+      },
+      "image": "https://images.pexels.com/photos/34436221/pexels-photo-34436221.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 170,
+      "storeId": 4,
+      "section": "Notebooks & Notepads",
+      "name": "Multi-Section Notebook - Pro Gray",
+      "description": "Multi-Section Notebook from Store Four, part of the Notebooks & Notepads category. Pro quality, great for everyday school or university use.",
+      "price": 34.6,
+      "rating": {
+        "rate": 4.6,
+        "count": 122
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 171,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Arabic Language Reference - Deluxe Gold",
+      "description": "Arabic Language Reference from Store Four, part of the Books & Study References category. Deluxe quality, great for everyday school or university use.",
+      "price": 31.85,
+      "rating": {
+        "rate": 3.9,
+        "count": 258
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 172,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Math Textbook - Standard White",
+      "description": "Math Textbook from Store Four, part of the Books & Study References category. Standard quality, great for everyday school or university use.",
+      "price": 6.6,
+      "rating": {
+        "rate": 4.0,
+        "count": 217
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 173,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Science Reference - Premium Blue",
+      "description": "Science Reference from Store Four, part of the Books & Study References category. Premium quality, great for everyday school or university use.",
+      "price": 44.83,
+      "rating": {
+        "rate": 4.8,
+        "count": 75
+      },
+      "image": "https://images.pexels.com/photos/7989578/pexels-photo-7989578.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 174,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "English-Arabic Dictionary - Economy Red",
+      "description": "English-Arabic Dictionary from Store Four, part of the Books & Study References category. Economy quality, great for everyday school or university use.",
+      "price": 58.94,
+      "rating": {
+        "rate": 4.3,
+        "count": 211
+      },
+      "image": "https://images.pexels.com/photos/6963779/pexels-photo-6963779.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 175,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Children's Story Book - Special Black",
+      "description": "Children's Story Book from Store Four, part of the Books & Study References category. Special quality, great for everyday school or university use.",
+      "price": 37.55,
+      "rating": {
+        "rate": 4.5,
+        "count": 52
+      },
+      "image": "https://images.pexels.com/photos/9719579/pexels-photo-9719579.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 176,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Social Studies Reference - Modern Green",
+      "description": "Social Studies Reference from Store Four, part of the Books & Study References category. Modern quality, great for everyday school or university use.",
+      "price": 40.35,
+      "rating": {
+        "rate": 3.7,
+        "count": 246
+      },
+      "image": "https://images.pexels.com/photos/17732202/pexels-photo-17732202.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 177,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Activity Book - Super Purple",
+      "description": "Activity Book from Store Four, part of the Books & Study References category. Super quality, great for everyday school or university use.",
+      "price": 15.0,
+      "rating": {
+        "rate": 3.9,
+        "count": 177
+      },
+      "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 178,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "General Knowledge Encyclopedia - Essential Pink",
+      "description": "General Knowledge Encyclopedia from Store Four, part of the Books & Study References category. Essential quality, great for everyday school or university use.",
+      "price": 16.64,
+      "rating": {
+        "rate": 4.0,
+        "count": 204
+      },
+      "image": "https://images.pexels.com/photos/159866/pexels-photo-159866.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 179,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Foundation Course Book - Classic Orange",
+      "description": "Foundation Course Book from Store Four, part of the Books & Study References category. Classic quality, great for everyday school or university use.",
+      "price": 20.3,
+      "rating": {
+        "rate": 4.9,
+        "count": 225
+      },
+      "image": "https://images.pexels.com/photos/5009158/pexels-photo-5009158.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 180,
+      "storeId": 4,
+      "section": "Books & Study References",
+      "name": "Final Revision Guide - Pro Gray",
+      "description": "Final Revision Guide from Store Four, part of the Books & Study References category. Pro quality, great for everyday school or university use.",
+      "price": 18.87,
+      "rating": {
+        "rate": 3.6,
+        "count": 19
+      },
+      "image": "https://images.pexels.com/photos/5009179/pexels-photo-5009179.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 181,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Full Geometry Set - Deluxe Gold",
+      "description": "Full Geometry Set from Store Four, part of the Geometry & Drawing Tools category. Deluxe quality, great for everyday school or university use.",
+      "price": 46.2,
+      "rating": {
+        "rate": 3.6,
+        "count": 189
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 182,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "30cm Ruler - Standard White",
+      "description": "30cm Ruler from Store Four, part of the Geometry & Drawing Tools category. Standard quality, great for everyday school or university use.",
+      "price": 17.33,
+      "rating": {
+        "rate": 3.6,
+        "count": 30
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 183,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Drawing Compass - Premium Blue",
+      "description": "Drawing Compass from Store Four, part of the Geometry & Drawing Tools category. Premium quality, great for everyday school or university use.",
+      "price": 46.48,
+      "rating": {
+        "rate": 4.9,
+        "count": 112
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 184,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Protractor - Economy Red",
+      "description": "Protractor from Store Four, part of the Geometry & Drawing Tools category. Economy quality, great for everyday school or university use.",
+      "price": 51.16,
+      "rating": {
+        "rate": 4.4,
+        "count": 132
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 185,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Pencil Case - Special Black",
+      "description": "Pencil Case from Store Four, part of the Geometry & Drawing Tools category. Special quality, great for everyday school or university use.",
+      "price": 11.94,
+      "rating": {
+        "rate": 4.5,
+        "count": 298
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 186,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Eraser Pack - Modern Green",
+      "description": "Eraser Pack from Store Four, part of the Geometry & Drawing Tools category. Modern quality, great for everyday school or university use.",
+      "price": 57.13,
+      "rating": {
+        "rate": 4.2,
+        "count": 141
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 187,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Wooden Color Pencils Set - Super Purple",
+      "description": "Wooden Color Pencils Set from Store Four, part of the Geometry & Drawing Tools category. Super quality, great for everyday school or university use.",
+      "price": 47.18,
+      "rating": {
+        "rate": 3.8,
+        "count": 68
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 188,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Watercolor Set - Essential Pink",
+      "description": "Watercolor Set from Store Four, part of the Geometry & Drawing Tools category. Essential quality, great for everyday school or university use.",
+      "price": 47.78,
+      "rating": {
+        "rate": 3.7,
+        "count": 169
+      },
+      "image": "https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 189,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Office Scissors - Classic Orange",
+      "description": "Office Scissors from Store Four, part of the Geometry & Drawing Tools category. Classic quality, great for everyday school or university use.",
+      "price": 10.95,
+      "rating": {
+        "rate": 3.5,
+        "count": 169
+      },
+      "image": "https://images.pexels.com/photos/2078147/pexels-photo-2078147.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 190,
+      "storeId": 4,
+      "section": "Geometry & Drawing Tools",
+      "name": "Mini Stapler - Pro Gray",
+      "description": "Mini Stapler from Store Four, part of the Geometry & Drawing Tools category. Pro quality, great for everyday school or university use.",
+      "price": 36.67,
+      "rating": {
+        "rate": 4.9,
+        "count": 202
+      },
+      "image": "https://images.pexels.com/photos/19658263/pexels-photo-19658263.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 191,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "School Backpack - Deluxe Gold",
+      "description": "School Backpack from Store Four, part of the Bags & School Essentials category. Deluxe quality, great for everyday school or university use.",
+      "price": 26.82,
+      "rating": {
+        "rate": 4.6,
+        "count": 48
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 192,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Fabric Pencil Case - Standard White",
+      "description": "Fabric Pencil Case from Store Four, part of the Bags & School Essentials category. Standard quality, great for everyday school or university use.",
+      "price": 37.57,
+      "rating": {
+        "rate": 4.7,
+        "count": 134
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 193,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "School Trolley Bag - Premium Blue",
+      "description": "School Trolley Bag from Store Four, part of the Bags & School Essentials category. Premium quality, great for everyday school or university use.",
+      "price": 10.6,
+      "rating": {
+        "rate": 4.7,
+        "count": 71
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 194,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Book Cover Holder - Economy Red",
+      "description": "Book Cover Holder from Store Four, part of the Bags & School Essentials category. Economy quality, great for everyday school or university use.",
+      "price": 48.79,
+      "rating": {
+        "rate": 4.3,
+        "count": 31
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 195,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Sports Bag - Special Black",
+      "description": "Sports Bag from Store Four, part of the Bags & School Essentials category. Special quality, great for everyday school or university use.",
+      "price": 24.1,
+      "rating": {
+        "rate": 4.1,
+        "count": 199
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 196,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "School Water Bottle - Modern Green",
+      "description": "School Water Bottle from Store Four, part of the Bags & School Essentials category. Modern quality, great for everyday school or university use.",
+      "price": 8.79,
+      "rating": {
+        "rate": 4.5,
+        "count": 16
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 197,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Lunch Box - Super Purple",
+      "description": "Lunch Box from Store Four, part of the Bags & School Essentials category. Super quality, great for everyday school or university use.",
+      "price": 51.73,
+      "rating": {
+        "rate": 4.7,
+        "count": 64
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 198,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Laptop Bag - Essential Pink",
+      "description": "Laptop Bag from Store Four, part of the Bags & School Essentials category. Essential quality, great for everyday school or university use.",
+      "price": 28.84,
+      "rating": {
+        "rate": 4.0,
+        "count": 245
+      },
+      "image": "https://images.pexels.com/photos/6368842/pexels-photo-6368842.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 199,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Metal Pen Case - Classic Orange",
+      "description": "Metal Pen Case from Store Four, part of the Bags & School Essentials category. Classic quality, great for everyday school or university use.",
+      "price": 43.9,
+      "rating": {
+        "rate": 4.2,
+        "count": 277
+      },
+      "image": "https://images.pexels.com/photos/3059/pexels-photo-3059.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 200,
+      "storeId": 4,
+      "section": "Bags & School Essentials",
+      "name": "Desk Organizer - Pro Gray",
+      "description": "Desk Organizer from Store Four, part of the Bags & School Essentials category. Pro quality, great for everyday school or university use.",
+      "price": 58.1,
+      "rating": {
+        "rate": 3.9,
+        "count": 285
+      },
+      "image": "https://images.pexels.com/photos/28503359/pexels-photo-28503359.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ]
+}
