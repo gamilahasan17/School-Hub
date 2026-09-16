@@ -53,3 +53,44 @@ async function showProducts(storeId) {
       `<p class="text-danger text-center">حصلت مشكلة في تحميل المنتجات، حاول تاني.</p>`;
   }
 }
+async function showProductDetails() {
+  const box = document.getElementById("product_details");
+  if (!box) return;
+
+  // نجيب الـ id من الرابط: products-details.html?id=1
+  const id = new URLSearchParams(window.location.search).get("id");
+
+  if (!id) {
+    box.innerHTML = `<p class="text-danger text-center">المنتج غير موجود</p>`;
+    return;
+  }
+
+  try {
+    const result = await fetch(`${API_URL}/products/${id}`);
+    const p = await result.json();
+
+    box.innerHTML = `
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-md-6">
+          <img src="${p.image}" class="w-100 rounded" alt="${p.name}">
+        </div>
+        <div class="col-12 col-md-6">
+          <span class="badge bg-secondary mb-2">${p.section}</span>
+          <h2>${p.name}</h2>
+          <p class="text-muted">${p.description}</p>
+          <h4 class="text-success">${p.price} EGP</h4>
+          <p>
+            <i class="fa-solid fa-star text-warning"></i>
+            ${p.rating?.rate ?? "—"}
+            <small class="text-muted">(${p.rating?.count ?? 0} تقييم)</small>
+          </p>
+         <button onclick="history.back()" class="btn btn-outline-dark mt-3">
+  <i class="fa-solid fa-arrow-left"></i> رجوع للمنتجات
+</button>
+        </div>
+      </div>`;
+  } catch (error) {
+    console.error(error);
+    box.innerHTML = `<p class="text-danger text-center">حصلت مشكلة في تحميل المنتج.</p>`;
+  }
+}
