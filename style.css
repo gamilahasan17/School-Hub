@@ -203,6 +203,12 @@ body {
     .search-box button {
         padding: 15px;
     }
+    body.rtl-mode .search-box button {
+        order: 2 !important;
+    }
+    body.rtl-mode .search-box input {
+        order: 1 !important;
+    }
 }
 
 /* ===================== END HERO SECTION ===================== */
@@ -325,7 +331,6 @@ body {
 /* =========================================================
    BUNDLES SECTION
 ========================================================= */
-
 .bundles {
     background-color: #f8f9fa; 
     padding: 3rem 0; 
