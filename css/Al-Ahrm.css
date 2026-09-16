@@ -90,7 +90,7 @@ body {
     display: flex;
     /* padding: 50px 20px; */
     text-align: center;
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -199,7 +199,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section1 .buy-now {
-    background-color: #334F4C;
+    background-color: #2a2a72;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -210,7 +210,7 @@ margin-right: auto;
 }
 
 .content-section1 .buy-now:hover {
-    background-color: #334F4C;
+    background-color: #1c1c50;
 }
 
 .content-section1 .buy-now:active {
@@ -301,7 +301,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section2 .buy-now {
-    background-color:#334F4C;
+    background-color: #2a2a72;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -403,7 +403,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section3 .buy-now {
-    background-color: #334F4C;
+    background-color: #2a2a72;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -505,7 +505,7 @@ margin-right: auto;
 
 /* الزرار */
 .content-section4 .buy-now {
-    background-color:#334F4C;
+    background-color: #2a2a72;
     color: white;
     border: none;
     padding: 10px 24px;
@@ -521,5 +521,16 @@ margin-right: auto;
 
 .content-section4 .buy-now:active {
     transform: scale(0.96);
+}
+@media (max-width: 768px) {
+    .top-nav {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .top-icons {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
 }
 /* end section 4 styles */

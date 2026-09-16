@@ -203,6 +203,12 @@ body {
     .search-box button {
         padding: 15px;
     }
+    body.rtl-mode .search-box button {
+        order: 2 !important;
+    }
+    body.rtl-mode .search-box input {
+        order: 1 !important;
+    }
 }
 
 /* ===================== END HERO SECTION ===================== */
@@ -321,7 +327,6 @@ body {
 }
 
 /* ===================== END PRODUCTS SECTION ===================== */
-/*====================Form Section====================*/
 
 /* =========================================================
    FOOTER SECTION
