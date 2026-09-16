@@ -11,12 +11,14 @@ div button{
     color: #000;
 }
 body{
-     background-color: #BC6C25;
+   background-color: #fefae0;
+     /* background-color: #BC6C25; */
      /* background-color: #BC6C25; */
      /* display: flex;
      justify-content: center;
      align-items: center; */
      height: 100vh;
+    
 }
 .container-form{
     color: #eef0f2;
@@ -31,19 +33,21 @@ h1{
     padding: 5px;
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    color:#BC6C25;
+   
 }
 .form-group{
    
     padding: 10px;
     margin: 10px;
-   background-color: rgba(255, 255, 255, 0.838);
+   background:linear-gradient( #bc6b25bb, #334f4ca4);
     border-radius: 10px;
+    
    
    
 }
 a{
-    color: #334F4C;
+    color: #BC6C25;
 }
 .btn{
     background-color: #334F4C;

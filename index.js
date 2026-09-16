@@ -37,7 +37,7 @@ btn.onclick = function () {
 
    if(rename.test(namevalue)&&reemail.test(emailvalue)){
        
-      window.alert("Your Data Has Been Stored Successfuly");
+      window.alert(`Your Data Has Been Stored Successfuly `);
       window.location.href = "index.html";
      
     }
