@@ -70,8 +70,8 @@ btn.onclick = function () {
  <input required placeholder="enter your number" id="phone" class="form-control" type="text" data-en-placeholder="enter your number" data-ar-placeholder="أدخل رقم هاتفك">
   </div>
   <span class="sp" data-en="Invalid inputs" data-ar="بيانات غير صحيحة">Invalid inputs</span>
-  <div>
-  <button class="btn btn-success" id="button" type="button" data-en="Confirm" data-ar="تأكيد">Confirm</button>
+  <div class="pbtn">
+  <button class="btn btn-success" id="button" type="button" data-en="Confirm" data-ar="تأكيد">Register</button>
   </div>
    <p class="text-center">you already have an account <a id="login" href="form.html">sign in</a></p>
    </div>
