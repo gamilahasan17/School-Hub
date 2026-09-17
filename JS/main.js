@@ -20,3 +20,4 @@ fetch('../html/footer.html')
   .then(data => {
     document.getElementById('footer-placeholder').innerHTML = data;
   });
+  const navLinks = document.querySelectorAll('.top-icons a:not(.cart-icon)');
