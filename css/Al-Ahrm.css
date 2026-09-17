@@ -576,7 +576,7 @@ margin-right: auto;
 .floating-cart {
   position: fixed;
   bottom: 25px;
-  right: 25px;
+  left: 25px;
   width: 55px;
   height: 55px;
   background: var(--accent-gold);
@@ -646,7 +646,7 @@ margin-right: auto;
   padding: 0;
   line-height: 1;
 }
-.buy-btn {
+.buy-btn  {
   background-color: var(--accent-gold);   /* أي لون تحبيه */
   color: white;
   border: none;
@@ -658,5 +658,17 @@ margin-right: auto;
 }
 
 .buy-btn:hover {
+  background-color: var(--primary-blue);
+}
+.btn-serch{
+    background-color: var(--accent-gold);   /* أي لون تحبيه */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  
+}
+.btn-serch:hover {
   background-color: var(--primary-blue);
 }
